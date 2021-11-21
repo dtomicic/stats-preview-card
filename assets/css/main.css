@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  background: #1b1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  border-radius: 0.625rem;
+  width: 80%;
+}
+
+.box__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.box__text-heading {
+  color: white;
+  font-family: "Inter";
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  letter-spacing: 0.063rem;
+}
+
+.box__secondarypart-paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter";
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.box__secondarypart-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.box__secondarypart-ul li + li {
+  margin-top: 2rem;
+}
+
+.box__secondarypart-heading {
+  color: white;
+  font-family: "Inter";
+}
+
+.box__secondarypart-ulp {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.box__content-image {
+  height: 260px;
+  max-height: 400px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(125, 2, 201, 0.5))), url(/assets/img/image-header-mobile.jpg);
+  background: linear-gradient(90deg, rgba(125, 2, 201, 0.5)), url(/assets/img/image-header-mobile.jpg);
+  background-size: cover;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.insight {
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=main.css.map */
