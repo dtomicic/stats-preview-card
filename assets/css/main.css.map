@@ -7,7 +7,7 @@
         "../scss/abstract/_mixins.scss",
         "../scss/abstract/_variables.scss",
         "../scss/base/_typography.scss",
-        "../scss/components/_components.scss"
+        "../scss/components/_box.scss"
     ],
     "names": [],
     "file": "main.css"
