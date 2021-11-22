@@ -1,6 +1,5 @@
 //Breakpoints
-$break-tablet: 768px;
-$break-desktop: 1150px;
+$break-desktop: toRem(1150);
 
 //Colors
 $main-bg: hsl(233, 47%, 7%);

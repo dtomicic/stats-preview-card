@@ -10,33 +10,33 @@ body {
   background: $card-bg;
   display: flex;
   flex-direction: column-reverse;
-  border-radius: 0.625rem;
+  border-radius: toRem(10);
   width: 80%;
 
   &__text {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2rem 1rem 2rem 1rem;
+    padding:  toRem(32, 16, 32, 16);
 
     &-heading {
       color: $main-heading;
       font-family: $inter;
-      font-size: 1.9rem;
+      font-size: toRem(30.4);
       font-weight: 700;
-      margin-bottom: 2rem;
-      letter-spacing: 0.063rem;
+      margin-bottom: toRem(32);
+      letter-spacing: toRem(1.008);
     }
   }
 
   &__secondarypart-paragraph {
     color: $main-paragraph;
     font-family: $inter;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
+    line-height: toRem(24);
+    font-size: toRem(16);
+    margin-bottom: toRem(32);
+    padding-left: toRem(28.8);
+    padding-right: toRem(28.8);
   }
 
   &__secondarypart-ul {
@@ -45,7 +45,7 @@ body {
     list-style-type: none;
 
     li + li {
-      margin-top: 2rem;
+      margin-top: toRem(32);
     }
   }
 
@@ -58,7 +58,7 @@ body {
     color: $stat-headings;
     font-family: $lexend;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: toRem(12.8);
   }
 }
 
@@ -68,7 +68,7 @@ body {
   background: linear-gradient(90deg, rgba(125, 2, 201, 0.5)),
   url(/assets/img/image-header-mobile.jpg);
   background-size: cover;
-  border-radius: 0.625rem 0.625rem 0 0;
+  border-radius: toRem(10, 10, 0, 0);
 }
 
 
@@ -81,31 +81,31 @@ body {
     flex-direction: row;
 
     &__text {
-      margin-right: 1rem;
-      margin-top: 3rem;
+      margin-right: toRem(16);
+      margin-top: toRem(48);
       padding-bottom: 0;
 
       &-heading {
         text-align: left;
-        padding-left: 5rem;
-        font-size: 2.3rem;
+        padding-left: toRem(80);
+        font-size: toRem(36.8);
       }
     }
 
     &__secondarypart-paragraph {
       text-align: left;
-      padding-left: 5rem;
+      padding-left: toRem(80);
       width: 70%; 
     }
 
     &__secondarypart-ul {
       flex-direction: row;
-      padding-left: 5rem;
-      margin-top: 4rem;
+      padding-left: toRem(80);
+      margin-top: toRem(64);
       
       li + li {
         margin-top: 0;
-        margin-left: 5rem;
+        margin-left: toRem(80);
       }
     }
 
@@ -115,7 +115,7 @@ body {
       background: linear-gradient(90deg, rgba(125, 2, 201, 0.5)),
       url(/assets/img/image-header-desktop.jpg);
       background-size: cover;
-      border-radius: 0 0.625rem 0.625rem 0;
+      border-radius: toRem(0, 10, 10, 0);
     }
   }
 }
