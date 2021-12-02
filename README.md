@@ -21,11 +21,12 @@ This project is part of Frontend Mentors course. It's a simple stats preview car
 - SCSS
 
 ## Live preview
+[Click for live preview](https://stats-preview-card-dtomicic.vercel.app/)
 
 ## Screenshots
 <p align="center">
-  <img width="200" alt="Screenshot 2021-11-22 at 20 21 27" src="https://user-images.githubusercontent.com/25035576/142922780-553300ba-293e-4546-9254-dff74c38dd3f.png">
-<img width="400" alt="Screenshot 2021-11-22 at 20 20 01" src="https://user-images.githubusercontent.com/25035576/142922851-807e3b08-6ddd-46e5-905f-74aba47a9b30.png">
+  <img width="150" alt="Screenshot 2021-11-22 at 20 21 27" src="https://user-images.githubusercontent.com/25035576/142922780-553300ba-293e-4546-9254-dff74c38dd3f.png">
+<img width="520" alt="Screenshot 2021-11-22 at 20 20 01" src="https://user-images.githubusercontent.com/25035576/142922851-807e3b08-6ddd-46e5-905f-74aba47a9b30.png">
   <p align="center">Click the image to see full size</p>
 
 </p>
